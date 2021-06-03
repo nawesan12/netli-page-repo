@@ -1,0 +1,434 @@
+.maintl {
+  height: 100%;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 8vh 1fr;
+      grid-template-rows: 8vh 1fr;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.maintl .mainheader {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maintl .mainheader .sectionone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maintl .mainheader .sectionone .button {
+  width: 3.48rem;
+}
+
+.maintl .mainheader .sectionone .view {
+  width: 6rem;
+  padding: .2rem;
+  margin: 1.5rem;
+}
+
+.maintl .mainheader .sectionone .view svg {
+  margin: .4rem;
+}
+
+.maintl .mainheader .sectionone .star {
+  width: 3.48rem;
+}
+
+.maintl .mainheader .sectionone .maincardstitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 1rem 0 0;
+}
+
+.maintl .mainheader .sectionone .maincardstitle span {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.maintl .mainheader .corporationname {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem;
+  width: 13rem;
+}
+
+.maintl .mainheader .corporationname .namecompany {
+  padding: 1rem;
+}
+
+.maintl .mainheader .peopleteam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maintl .mainheader .peopleteam .persons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem 1rem 1rem -.6rem;
+}
+
+.maintl .mainheader .peopleteam .persons .person {
+  height: 5vh;
+  width: 3.2rem;
+  background: lightblue;
+  border-radius: 50%;
+  margin-left: -.5rem;
+  border: 1px solid black;
+}
+
+.maintl .mainheader .peopleteam .last {
+  margin-left: .8rem;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  width: 5rem;
+}
+
+.maintl .mainheader .peopleteam .invitebutton {
+  padding: 1rem 1.2rem;
+}
+
+.maintl .mainheader .moreoptions {
+  position: relative;
+  left: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.maintl .mainheader .moreoptions svg {
+  margin: 0  0 0 .5rem;
+}
+
+.maintl .mainheader .moreoptions .grayline {
+  width: 10rem;
+  height: 1rem;
+  background: rgba(211, 211, 211, 0.6);
+  border-radius: 1rem;
+  margin: 1rem .5rem 1rem 1rem;
+}
+
+.maintl .maincards {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.maintl .maincards .cardsec {
+  width: 36rem;
+  border-radius: .4rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 3rem 1fr 3rem;
+      grid-template-rows: 3rem 1fr 3rem;
+  padding: 1.5rem;
+  margin: 0 0 2rem 0;
+  background: rgba(238, 237, 237, 0.938);
+}
+
+.maintl .maincards .cardsec .title {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.maintl .maincards .cardsec .cardopt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.maintl .maincards .cardsec .cardopt svg {
+  cursor: pointer;
+}
+
+.maintl .maincards .cardsec .cardopt svg:hover {
+  stroke: #1e1e1e7e;
+}
+
+.maintl .maincards .cardsec .cardcont {
+  width: 200%;
+  overflow-y: auto;
+}
+
+.maintl .maincards .cardsec .cardcont .cardloading {
+  width: 100%;
+  height: 3.5rem;
+  background: white;
+  border-radius: .6rem;
+  border-bottom: 2px solid #bbb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.maintl .maincards .cardsec .cardcont .cardloading::after {
+  content: '';
+  width: 42%;
+  height: .8rem;
+  background: #ddd;
+}
+
+.maintl .maincards .cardsec .cardcont .card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 2rem 1fr 3.5rem;
+      grid-template-rows: 2rem 1fr 3.5rem;
+  grid-gap: 1rem;
+  background: white;
+  border-radius: .6rem;
+  border-bottom: 2px solid #bbb;
+  margin: 1rem 0;
+}
+
+.maintl .maincards .cardsec .cardcont .card .card-header {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.maintl .maincards .cardsec .cardcont .card .card-content {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maintl .maincards .cardsec .cardcont .card .card-content .loadingbar {
+  content: '';
+  width: 42%;
+  height: .8rem;
+  background: #ddd;
+  margin: 1rem 1rem 0 1rem;
+}
+
+.maintl .maincards .cardsec .cardcont .card .card-content .wall {
+  height: 8rem;
+  width: 100%;
+  border-radius: .5rem .5rem .5rem 0;
+}
+
+.maintl .maincards .cardsec .cardcont .card .icons {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #9e9e9e;
+  font-size: 1.05rem;
+}
+
+.maintl .maincards .cardsec .cardcont .card .icons svg {
+  margin: 1rem .5rem 1rem 1rem;
+}
+
+.maintl .maincards .cardsec .cardcont .card .people {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .8rem;
+}
+
+.maintl .maincards .cardsec .cardcont .card .people .person {
+  content: '';
+  height: 2.7rem;
+  width: 2.7rem;
+  background: lightblue;
+  border-radius: 50%;
+  margin: .1rem;
+}
+
+.maintl .maincards .cardsec .cardcont .card .wall {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  z-index: 10;
+  border-radius: .5rem .5rem 0 0;
+}
+
+.maintl .maincards .cardsec .cardcont .card .blue {
+  background: #000046;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, right top, left top, from(#1CB5E0), to(#000046));
+  background: linear-gradient(to left, #1CB5E0, #000046);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.maintl .maincards .cardsec .cardcont .card .rose {
+  background: #ff6e7f;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#bfe9ff), to(#ff6e7f));
+  background: linear-gradient(to right, #bfe9ff, #ff6e7f);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.maintl .maincards .cardsec .cardcont .bar {
+  width: 4rem;
+  height: .8rem;
+  background: #3f4f3f;
+  margin: 1rem;
+  border-radius: 1rem;
+  z-index: 100;
+}
+
+.maintl .maincards .cardsec .card-footer {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 /4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maintl .maincards .cardsec .card-footer svg {
+  margin-top: 1rem;
+}
+
+.maintl .maincards .cardsec .card-footer::after {
+  content: '';
+  width: 80%;
+  height: .8rem;
+  background: #aaa;
+  margin: 1rem 1rem 0 1rem;
+}
+
+.maintl .maincards .ultima {
+  height: 80vh;
+}
+
+.maintl .maincards ::-webkit-scrollbar {
+  width: 1px;
+}
+
+.maintl .button {
+  background: rgba(255, 255, 255, 0.2);
+  height: 5.5vh;
+  margin: 0 .8rem 0 .2rem;
+  border-radius: .4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  color: white;
+}
+
+.maintl .button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+/*# sourceMappingURL=body.css.map */

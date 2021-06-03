@@ -1,0 +1,48 @@
+aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding: .8rem;
+}
+
+aside .asidetheme {
+  height: 5.5vh;
+  width: 2.9vw;
+  border-radius: .4rem;
+  margin: 0 0 1.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  -webkit-transition: all .15s ease;
+  transition: all .15s ease;
+}
+
+aside .asidetheme:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+aside .asidetheme img {
+  height: 100%;
+  border-radius: .4rem;
+}
+/*# sourceMappingURL=aside.css.map */

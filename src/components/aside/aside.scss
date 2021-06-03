@@ -1,0 +1,30 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding: .8rem;
+
+    .asidetheme {
+        height: 5.5vh;
+        width: 2.9vw;
+        border-radius: .4rem;
+        margin: 0 0 1.5rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all .15s ease;
+
+        &:hover{
+            transform: scale(1.15);
+        }
+
+        img {
+            height: 100%;
+            border-radius: .4rem;
+        }
+    }
+}

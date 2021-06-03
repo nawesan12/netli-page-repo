@@ -1,0 +1,111 @@
+.menunav {
+  height: 100%;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.6rem;
+}
+
+.menunav .button {
+  background: rgba(255, 255, 255, 0.2);
+  height: 5.5vh;
+  width: 3.48rem;
+  margin: 0 .8rem 0 .2rem;
+  border-radius: .4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.menunav .button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.menunav .nav-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menunav .nav-buttons .search-input {
+  height: 5.5vh;
+  margin-left: -.2rem;
+  padding: 0 .6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: .4rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.2)), color-stop(rgba(255, 255, 255, 0.15)), to(rgba(0, 0, 0, 0.05)));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0.05));
+}
+
+.menunav .nav-buttons .search-input input {
+  background: none;
+  border: none;
+  height: 70%;
+  margin: 0 .5rem 0 0;
+  border-radius: .5rem;
+  padding: .2rem;
+}
+
+.menunav .nav-buttons .search-input input:focus {
+  outline: none;
+}
+
+.menunav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  opacity: .6;
+  -webkit-filter: blur(0.4px);
+          filter: blur(0.4px);
+  cursor: pointer;
+  color: white;
+}
+
+.menunav .user-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menunav .user-buttons .profilebutton {
+  height: 5.5vh;
+  width: 3.48rem;
+  border-radius: 50%;
+  margin: 0 .5rem;
+  background: lightblue;
+  border: 1px solid black;
+  cursor: pointer;
+}
+/*# sourceMappingURL=header.css.map */
